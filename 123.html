@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотостудия</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c2c2c;
+            color: #ccc;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1920x500');
+            background-size: cover;
+            height: 500px;
+            text-align: center;
+            color: white;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .services, .portfolio, .contact {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #333;
+        }
+        .services h2, .portfolio h2, .contact h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .service-card, .portfolio-item {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background-color: #444;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .service-card img, .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Фотостудия "Креатив"</h1>
+        <p>Ваши лучшие моменты в объективе</p>
+    </header>
+
+    <nav>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Добро пожаловать в нашу фотостудию!</h1>
+        <p>Создаем уникальные моменты для вас</p>
+    </div>
+
+    <div id="services" class="services">
+        <h2>Наши услуги</h2>
+        <div class="service-card">
+            <img src="file:///C:/Users/rmz/Downloads/98693a84-4ab4-4991-914f-77af28203e51.webp/300x200" alt="Съемка">
+            <h3>Съемка</h3>
+            <p>Мы предлагаем профессиональную фотосъемку для любых событий.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300x200" alt="Ретушь">
+            <h3>Ретушь</h3>
+            <p>Идеальная обработка фотографий для достижения совершенства.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://via.placeholder.com/300x200" alt="Аренда студии">
+            <h3>Аренда студии</h3>
+            <p>Уютная студия для съемок с современным оборудованием.</p>
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio">
+        <h2>Портфолио</h2>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200" alt="Работа 1">
+            <p>Свадебная съемка</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200" alt="Работа 2">
+            <p>Фотосессия для бренда</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200" alt="Работа 3">
+            <p>Семейная съемка</p>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <h2>Контакты</h2>
+        <p>Телефон: +7 (123) 456-78-90</p>
+        <p>Email: info@photostudio.com</p>
+        <p>Адрес: ул. Примерная, д. 1, Москва</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Фотостудия "Креатив". Все права защищены.</p>
+    </footer>
+</body>
+</html>
